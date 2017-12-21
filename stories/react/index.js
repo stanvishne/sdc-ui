@@ -11,6 +11,7 @@ import Tabs from './Tabs.stories.js';
 import Form from './Form.stories.js';
 import Radios from './Radio.stories.js';
 import RadioGroups from './RadioGroup.stories.js';
+import Modals from './Modal.stories.js';
 
 import DefaultButtons from './buttons/DefaultButtons.stories.js';
 import OutlineButtons from './buttons/OutlineButtons.stories.js';
@@ -52,3 +53,6 @@ storiesOf('Tiles', module)
 
 storiesOf('Form Example', module)
 	.add('Form Example', () => <Form/>);
+
+storiesOf('Modals', module)
+	.add('Modal examples', () => <Modals/>);
