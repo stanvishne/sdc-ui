@@ -76,11 +76,16 @@
           height: 20px;
           .sdc-modal__svg-use {                        
               fill: $white;            
+          }
+          .svg-icon {
+            height: 14px;
+            width: 14px;
+            fill: $white;
           }        
         }
       }
       .sdc-modal__content {
-        padding: 20px 40px;
+        padding: 50px 50px;
       }
     }
     .sdc-modal__header {
@@ -96,7 +101,10 @@
         @extend .heading-2;  
         flex: 1 1 auto;      
         color: $text-black;
-        padding-top: 14px;                
+        padding-top: 14px;
+        &.react {
+          font-weight: 400;
+        }                
       }
 
       .sdc-modal__close-button {
